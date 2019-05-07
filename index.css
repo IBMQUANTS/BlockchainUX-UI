@@ -1,0 +1,90 @@
+/* index*/
+
+body{ background-color:; color: black;
+font-size: 110%;
+}
+
+nav { background-color: yellow; color:#90C7E3;
+		width: 36.5%
+}
+
+div {background-color: white;}
+	{color: #3399CC; width: 38%
+	}		
+	 
+	@charset "UTF-8";
+	/* styles for screens larger than 903px wide */
+@media screen and (min-width: 503px){
+ body {
+	 background-color:#3399CC;	
+ }
+ 
+ #wrapper {
+	 width: 90%
+	 min-width: 800px;
+	 max-height: 900px;
+	 padding: 4em;
+	 margin: 0 auto;
+ }
+ 
+ }
+ 
+ #content {
+	maz-column-count:4;
+	webkit-column-count:4;
+	column-count: 4;
+	maz-column-gap:40px;
+	webkit-column-gap:41px;
+	column-gap:41px;
+ }
+ 
+ #footer{	
+ width: 90%
+ }
+ }
+	/* styles for screens up to 900 wide */
+ @media screen and (min-width: 902px){
+	  #wrapper {
+	 width: 90%
+	 min-width: 3.5em;
+	 max-height: 64em;
+	 padding: 4em;
+	 margin: 2 auto;
+ }
+ 
+ }
+ 
+ #content {
+	maz-column-count:4;
+	webkit-column-count:4;
+	column-count: 4;
+	maz-column-gap:40px;
+	webkit-column-gap:41px;
+	column-gap:41px;
+ }
+ 
+ }
+	 /* styles for screens up to 400 wide */
+ @media screen and (min-width: px){
+ * For devices smaller than 400px: */
+body {
+  background-image: url('img_smallflower.jpg'); 
+}
+ }
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 400px) {
+  body { 
+    background-image: url('img_flowers.jpg'); 
+  }
+}
+
+
+media screen and (min-width: 180px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+
+ 
